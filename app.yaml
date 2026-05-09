@@ -39,7 +39,7 @@ metadata:
   name: app
 spec:
   rules:
-    http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
