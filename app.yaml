@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deployment
+  namespace: dev
   labels:
     app: app
 spec:
@@ -12,7 +13,7 @@ spec:
     template:
       metadata:
         labels:
-          app: app1
+          app: app
       spec:
         containers:
         - name: app-container
