@@ -38,7 +38,7 @@ kind: Ingress
 metadata:
   name: app
 spec:
-- rules:
+  rules:
     http:
       paths:
       - path: /
